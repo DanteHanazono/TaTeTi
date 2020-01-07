@@ -117,7 +117,7 @@ namespace Tres_es_raya
                         }
                         else
                         {
-                            System.Console.WriteLine("Jugador 1!");
+                            System.Console.WriteLine("Jugador 2!");
                         }
                     }
                     else
