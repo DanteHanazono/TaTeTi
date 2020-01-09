@@ -95,13 +95,14 @@ namespace Tres_es_raya
                         if (aux_i == Objetivo || aux_j == Objetivo)
                         {
                             Ganador = true;
+                            break;
                         }
                     }
                     if (aux_d1 == Objetivo || aux_d2 == Objetivo)
                     {
                         Ganador = true;
                     }
-                    else
+                    if(!Ganador)
                     {
                         TurnoJugador1 = !TurnoJugador1;
                     }
